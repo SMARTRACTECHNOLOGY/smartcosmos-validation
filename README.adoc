@@ -1,0 +1,24 @@
+= SMART COSMOS Validation
+
+Validation constraint annotations and validators.  This is a collection of annotations useful for constraint validation.
+
+== @ExclusiveField
+
+The `@ExclusiveField()` annotation is a class-level annotation that ensures only one of possibly alternative fields is defined.
+
+For that, it requires an array of field names as parameter:
+....
+@ExclusiveField(fields = { "foo", "bar" })
+public class Entity {
+    private String foo;
+    private String bar;
+    private String someOtherField;
+}
+....
+
+Validation passes if one of the specified fields is neither `null` or empty.
+
+
+== @NotEmpty
+
+The `@NotEmpty` annotation is a class-level annotation that ensures a String is neither `null` or blank.

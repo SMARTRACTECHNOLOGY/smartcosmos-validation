@@ -41,5 +41,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:git://github.com/SMARTRACTECHNOLOGY/smartcosmos-validation.git</connection>
+        <developerConnection>scm:git:git@github.com:SMARTRACTECHNOLOGY/smartcosmos-validation.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/SMARTRACTECHNOLOGY/smartcosmos-validation/tree/master/</url>
+    </scm>
 
 </project>

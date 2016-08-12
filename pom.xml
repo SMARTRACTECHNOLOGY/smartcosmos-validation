@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>smartcosmos-validation</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.0</version>
 
     <name>SMART COSMOS Validation</name>
     <description>Constraint annotations and validators</description>
@@ -45,7 +45,7 @@
         <connection>scm:git:ssh://git@github.com/SMARTRACTECHNOLOGY/smartcosmos-validation.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/SMARTRACTECHNOLOGY/smartcosmos-validation.git</developerConnection>
         <url>https://github.com/SMARTRACTECHNOLOGY/smartcosmos-validation/tree/master/</url>
-        <tag>HEAD</tag>
+        <tag>v3.0.0</tag>
     </scm>
 
 </project>
